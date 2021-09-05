@@ -1,289 +1,116 @@
 html {
-    scroll-padding-top: 10vh;
     scroll-behavior: smooth;
 }
-
 * {
-    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-body {
-    /*margin: 20px 20px;*/
-    /*padding: 10px 23px;*/
-    /*box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.15);*/
-    box-sizing: border-box;
-}
-
-.header {
-    box-sizing: border-box;
-    margin: -8px -7px 0 -5px ;
-    height: 10vh;
-    /*width: 100vw;*/
-    background-color: gray;
-    text-align: center;
-    line-height: 1vh;
-    justify-content: space-around;
-    position: sticky;
-    top: 0;
-
-}
-
-.header ul {
-    display: inline-flex;
-    /*justify-content: space-around;*/
-    /*width: 100%;*/
-    /*text-align: center;*/
-
-}
-
-.header ul li {
-    /*justify-content: space-around;*/
-    margin-right: 50px;
-    list-style: none;
-    margin-left: 50px;
-    /*text-align: center;*/
-    /*width: 70px;*/
-    padding: 15px;
-
-}
-
-.header ul li a{
+a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
-    /*text-align: center;*/
+}
+.navigation {
+    background-color: grey;
     padding: 15px;
-}
-
-/*.header ul li:hover {*/
-/*    background-color: white;*/
-/*}*/
-
-.header ul li a:hover {
-    color: black;
-    background-color: white;
-    /*padding: 15px;*/
-}
-
-/*h2 {*/
-/*    color: white;*/
-/*    font-family: Verdana sans-serif;*/
-/*    font-size: 35px;*/
-/*}*/
-
-.section {
-    color: black;
-    font-size: 40px;
     text-align: center;
-    margin-top: 70px;
+    margin-bottom: 10px;
 }
-
-.banner {
-    height: 90vh;
-    /*width: 100vw;*/
-    margin-left: -4px;
-    background: url("https://p4.wallpaperbetter.com/wallpaper/242/950/470/code-microsoft-visual-studio-wallpaper-preview.jpg") no-repeat;
-    background-size: cover;
-    /*text-align: center;*/
-    /*line-height: 90vh;*/
-}
-
-.banner h1 {
-    font-size: 70px;
+.top-left {
+    position: absolute;
+    top: 100px;
+    left: 30px;
     color: white;
-    /*margin: 10px 10px;*/
-    margin: 20px 20px;
-    letter-spacing: 3px;
+    font-size: 80px;
 }
-
-/*.section-1 {*/
-/*    display: inline;*/
-/*    height: 90vh;*/
-/*    width: 100%;*/
-/*    !*display: table;*!*/
-/*    !*content: " ";*!*/
-/*    !*clear: both;*!*/
-/*}*/
-
-.circle {
-    display: inline-block;
-    margin-left: 40px;
-    margin-right: 10px;
-    height: 40vh;
-    width: 20%;
-    border-radius: 100%;
-    background-color: lightgray;
+#background {
+    margin-bottom: 50px;
 }
-
-.circle img {
-    height: 100%;
-    width: 100%;
-    border-radius: 100%;
+.team_img {
+    display: inline-flex;
 }
-
-
-/*.section-2 {*/
-/*    display: inline;*/
-/*}*/
-
-.main-content {
-    background-color: gray;
-    height: 90vh;
-    width: 45%;
-    float: left;
-    display: inline-block;
-    margin: 20px 20px 20px 10px;
-    /*text-align: center;*/
-    /*line-height: 90vh;*/
+.team {
+    margin-right: 120px;
+}
+#team1 {
+    margin-left: 120px;
+}
+.sec2content {
+    display: inline-flex;
+}
+.main {
+    background-color: grey;
+    color: white;
+    width: 678px;
+    text-align: justify;
+    margin: 4px;
     padding: 10px;
 }
-
-.main-content h2 {
-    color: white;
-}
-
-.main-content p {
-    color: white;
-    line-height: 1.2;
-    font-size: 20px;
-    /*letter-spacing: 2px;*/
-    word-spacing: 5px;
-}
-
 .article {
-    float: right;
-    /*text-align: center;*/
-    /*line-height: 20vh;*/
-    width: 45%;
-    margin: 20px 10px 20px 20px;
-    background-color: indianred;
-    height: 26vh;
-    text-align: center;
-}
-
-.article h2 {
-    font-weight: 700;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding: 65px;
+    width: 505px;
+    height: 15px;
+    text-align: justify;
     font-size: 30px;
 }
-
-#bg1 {
-    background: url("https://20o8nn37v3mzb7unq3fsj61e-wpengine.netdna-ssl.com/wp-content/uploads/2018/12/Project-management-tools-bad.jpg") no-repeat;
-    background-size: cover;
+#article3 {
+    margin-bottom: 4px;
+    background-color: rgb(211, 211, 211);
 }
-
-#bg2 {
-    background: url("https://www.salesforce.com/content/dam/blogs/ca/Blog%20Posts/project-managemnet-open-graph.jpg") no-repeat;
-    background-size: cover;
+#article1 {
+    background-color: rgb(211, 211, 211);
 }
-
-#bg3 {
-    background: url("https://www.elegantthemes.com/blog/wp-content/uploads/2020/06/best-project-management-platforms-featured-image-scaled.jpg") no-repeat;
-    background-size: cover;
+#article2 {
+    background-color: skyblue;
 }
-/*.section-2::after {*/
-/*    display: block;*/
-/*    content: '';*/
-/*    clear: both;*/
-/*}*/
-
-/*.section-3 {*/
-/*    display: inline;*/
-/*}*/
-
-.rec {
-    display: inline-block;
-    /*background-color: orangered;*/
-    width: 22%;
-    height: 55vh;
-    margin: 10px 20px 0 40px;
+#container {
+    display: inline-flex;
+}
+.box {
+    width: 300px;
     background-color: white;
-    /*border: 2px solid blue;*/
-    /*width: 100%;*/
-    max-width: 300px;
-    /*height: 420px;*/
-    /*display: inline-block;*/
-    /*margin: 10px;*/
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 30px;
     border-radius: 10px;
-    outline: none;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border: solid 1px grey;
 }
-
-.imageContainer {
-    /*border: 1px solid black;*/
-    width: 100%;
-    max-width: 280px;
-    height: 150px;
-    margin: 10px;
-
-}
-
-.imageContainer img {
-    width: 100%;
-    max-width: 280px;
-    height: 150px;
-    border-radius: 10px;
-}
-
 .heading {
-    /*border: 1px solid green;*/
-    width: 100%;
-    max-width: 280px;
     text-align: center;
-    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
-
-.heading h3 {
-    padding: 0;
-    margin: 0;
-}
-
-.summary {
-    /*border: 1px solid yellow;*/
-    width: 100%;
-    max-width: 280px;
-    margin: 10px;
+.content {
     text-align: justify;
-    overflow: hidden;
-    height: 140px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    margin-bottom: 0px;
 }
-
-.summary p {
-    padding-left: 10px;
-    padding-right: 10px;
-    overflow: hidden;
-    font-size: 20px;
-    margin-top: 5px;
-    line-height: 1.3;
-}
-
-.button {
-    border: 1px solid violet;
-    width: 100%;
-    max-width: 280px;
-    margin: 10px;
-    text-align: center;
-    padding-top: 10px;
-    height: 35px;
-    border-radius: 10px;
+button {
+    width: 270px;
     background-color: red;
-}
-
-.button a {
-    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
-    font-size: 20px;
-    font-family: "Segoe UI", serif;
-    text-decoration: none;
-}
-.button:hover {
-    background-color: blue;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-
-.footer {
-    height: 15vh;
-    width: 100%;
-    background-color: rosybrown;
-    text-align: center;
-    /*line-height: 10vh;*/
+button:hover {
+    background-color: teal;
 }
+
+.contactus {
+    background-color: palevioletred;
+} 
